@@ -27,6 +27,8 @@ This project was created for the IMAD5112 Assignment 2 to demonstrate a practica
 ### 🔹 Welcome Screen
 - Presents the app title and a short description of its purpose.
 - Contains a **Start** button that launches the quiz.
+  ![image](https://github.com/user-attachments/assets/4bbc134b-70f7-4a47-801e-14f7f7a248bd)
+
 
 ### 🔹 Question Screen
 - Displays one true/false historical question at a time.
@@ -34,6 +36,8 @@ This project was created for the IMAD5112 Assignment 2 to demonstrate a practica
 - After submitting an answer, a **Correct!** or **Incorrect!** message is displayed.
 - The user cannot change their answer after selecting it — the buttons are disabled to prevent cheating or duplicate scoring.
 - A **Next Question** button loads the following question until all five are completed.
+  ![image](https://github.com/user-attachments/assets/f9eaffe5-71f8-4d90-afc5-e6444447bd75)
+
 
 ### 🔹 Score Screen
 - Shows the user's total score out of 5.
@@ -43,6 +47,9 @@ This project was created for the IMAD5112 Assignment 2 to demonstrate a practica
   - **"You need to study harder."** for low scores (0–1)
 - Includes a **Review** button to revisit all questions with correct answers.
 - Has an **Exit** button to close the app completely.
+ ![image](https://github.com/user-attachments/assets/7392095c-416a-42b8-9efc-59eae2bb5c81) ![image](https://github.com/user-attachments/assets/e75340be-765f-48f5-be78-c93d0e8d5a4d)
+
+
 
 ---
 
