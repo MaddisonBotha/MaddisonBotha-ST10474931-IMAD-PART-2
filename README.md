@@ -14,11 +14,11 @@ The Flashcard Quiz App is a mobile learning tool developed in Android Studio usi
 
 This project was created for the IMAD5112 Assignment 2 to demonstrate a practical understanding of:
 
-- Kotlin language syntax and structure
-- Android development best practices
-- User interface design using `ConstraintLayout`
-- Navigation and interaction between activities
-- Input validation, scoring logic, and user experience principles
+- Kotlin language syntax and structure  
+- Android development best practices  
+- User interface design using `ConstraintLayout`  
+- Navigation and interaction between activities  
+- Input validation, scoring logic, and user experience principles  
 
 ---
 
@@ -27,8 +27,12 @@ This project was created for the IMAD5112 Assignment 2 to demonstrate a practica
 ### 🔹 Welcome Screen
 - Presents the app title and a short description of its purpose.
 - Contains a **Start** button that launches the quiz.
-  ![image](https://github.com/user-attachments/assets/4bbc134b-70f7-4a47-801e-14f7f7a248bd)
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4bbc134b-70f7-4a47-801e-14f7f7a248bd" alt="Welcome Screen" width="300"/>
+</p>
+
+---
 
 ### 🔹 Question Screen
 - Displays one true/false historical question at a time.
@@ -36,8 +40,12 @@ This project was created for the IMAD5112 Assignment 2 to demonstrate a practica
 - After submitting an answer, a **Correct!** or **Incorrect!** message is displayed.
 - The user cannot change their answer after selecting it — the buttons are disabled to prevent cheating or duplicate scoring.
 - A **Next Question** button loads the following question until all five are completed.
-  ![image](https://github.com/user-attachments/assets/f9eaffe5-71f8-4d90-afc5-e6444447bd75)
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f9eaffe5-71f8-4d90-afc5-e6444447bd75" alt="Question Screen" width="300"/>
+</p>
+
+---
 
 ### 🔹 Score Screen
 - Shows the user's total score out of 5.
@@ -47,30 +55,32 @@ This project was created for the IMAD5112 Assignment 2 to demonstrate a practica
   - **"You need to study harder."** for low scores (0–1)
 - Includes a **Review** button to revisit all questions with correct answers.
 - Has an **Exit** button to close the app completely.
- ![image](https://github.com/user-attachments/assets/7392095c-416a-42b8-9efc-59eae2bb5c81) ![image](https://github.com/user-attachments/assets/e75340be-765f-48f5-be78-c93d0e8d5a4d)
 
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7392095c-416a-42b8-9efc-59eae2bb5c81" alt="Score Screen - Main" width="300"/>
+  <img src="https://github.com/user-attachments/assets/e75340be-765f-48f5-be78-c93d0e8d5a4d" alt="Score Screen - Review" width="300"/>
+</p>
 
 ---
 
 ## 🎨 Design Considerations and Personal Touches
 
 - **Color Scheme**:
-  - `#FF5722` for headers to create bold impact
-  - `#00BCD4` and `#FF9800` for buttons and highlights to draw attention
-  - `#FFFFFF` backgrounds with transparency for readability over images
+  - `#FF5722` for headers to create bold impact  
+  - `#00BCD4` and `#FF9800` for buttons and highlights to draw attention  
+  - `#FFFFFF` backgrounds with transparency for readability over images  
 
 - **Fonts & Layout**:
-  - Large, legible text sizes (`20sp`–`40sp`)
-  - Clean layout with consistent vertical spacing
-  - `ConstraintLayout` ensures responsiveness across all screen sizes
+  - Large, legible text sizes (`20sp`–`40sp`)  
+  - Clean layout with consistent vertical spacing  
+  - `ConstraintLayout` ensures responsiveness across all screen sizes  
 
 - **Background Images**:
-  - Custom background images (`image1`, `image2`, `screen3`) set the tone for each screen
-  - All images are stretched using `centerCrop` or full-screen scaling to maintain aesthetic consistency
+  - Custom background images (`image1`, `image2`, `screen3`) set the tone for each screen  
+  - All images are stretched using `centerCrop` or full-screen scaling to maintain aesthetic consistency  
 
 - **Feedback Enhancements**:
-  - Emojis used in score messages to increase engagement and make feedback feel personal
+  - Emojis used in score messages to increase engagement and make feedback feel personal  
 
 ---
 
@@ -90,9 +100,9 @@ This project was created for the IMAD5112 Assignment 2 to demonstrate a practica
 - Built entirely in **Android Studio** using **Kotlin**.
 - UI created using **ConstraintLayout** for responsiveness.
 - Three Kotlin classes:
-  - `MainActivity.kt` (Welcome screen)
-  - `QuestionScreen.kt` (Quiz logic, feedback, and scoring)
-  - `MainActivity3.kt` (Score and review screen)
+  - `MainActivity.kt` (Welcome screen)  
+  - `QuestionScreen.kt` (Quiz logic, feedback, and scoring)  
+  - `MainActivity3.kt` (Score and review screen)  
 - GitHub used for version control — commits include meaningful messages reflecting project progress.
 - Attribution comments are provided in each file to credit external sources (e.g. Stack Overflow, W3Schools).
 - GitHub Actions will be configured to run automated builds and ensure project consistency across environments.
@@ -104,4 +114,3 @@ This project was created for the IMAD5112 Assignment 2 to demonstrate a practica
 The Flashcard Quiz App combines clean design, real-time interaction, and clear logic flow to create an educational experience. With built-in scoring, feedback, and answer review, it’s not just a test — it’s a tool for learning. This project meets the criteria for the IMAD5112 assignment and demonstrates best practices in Android development.
 
 ---
-
